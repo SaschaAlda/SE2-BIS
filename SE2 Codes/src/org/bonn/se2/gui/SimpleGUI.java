@@ -14,7 +14,7 @@ public class SimpleGUI implements ActionListener {
     
  
     /*
-    Methode wird nach dem Drücken des Buttons aufgerufen!
+    Methode wird nach dem Druecken des Buttons aufgerufen!
     */
     public void actionPerformed(ActionEvent e) {
         // aktualisiere den Titel des Buttons
@@ -26,7 +26,7 @@ public class SimpleGUI implements ActionListener {
         // Registriere dieses Frame (= this!) als Listener des Buttons!
         button.addActionListener(this);
         
-        // Füge Button dem Frame hinzu
+        // Fuege Button dem Frame hinzu
         frame.add ( button );
         
         // Mache das Frame sichtbar
