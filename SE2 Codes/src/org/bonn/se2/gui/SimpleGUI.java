@@ -14,7 +14,7 @@ public class SimpleGUI implements ActionListener {
     
  
     /*
-    Methode wird nach dem Druecken des Buttons aufgerufen!
+    Methode wird nach dem Druecken des Buttons aufgerufen!!
     */
     public void actionPerformed(ActionEvent e) {
         // aktualisiere den Titel des Buttons
