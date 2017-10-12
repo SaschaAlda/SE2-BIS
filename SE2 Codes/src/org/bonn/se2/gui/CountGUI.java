@@ -21,10 +21,9 @@ public class CountGUI implements ActionListener {
     Methode wird nach dem Druecken des Buttons aufgerufen!
     */
     public void actionPerformed(ActionEvent e) {
-        // aktualisiere den Titel des Buttons
-    	String str = field.getText();
-    	int currentZahl = new Integer( str ).intValue();
-    	currentZahl++;
+    		String str = field.getText();
+    		int currentZahl = new Integer( str ).intValue();
+    		currentZahl++;
         field.setText( currentZahl + "" ); 
     }
    

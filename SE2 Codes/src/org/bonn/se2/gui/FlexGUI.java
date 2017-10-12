@@ -50,7 +50,7 @@ public class FlexGUI implements ActionListener {
         frame.add ( button2 );
         
         
-        // Mache das Frame sichtbar
+        // Mache das Frame sichtbar!
         frame.setSize(250, 100);
         frame.setVisible(true);
     }
